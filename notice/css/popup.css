@@ -1,0 +1,11 @@
+*{margin: 0; padding: 0;}
+#wrap{
+    width: 250px;
+    height: 350px;
+    background: url("../images/notice.jpg");
+    background-size: cover;
+    margin: 10px auto;
+}
+h1{padding: 40px 20px 10px; }
+ul{margin-left: 50px;}
+ul li{margin: 10px; }
