@@ -6,14 +6,13 @@
     <title>가상 선택자</title>
     <style>
        form fieldset{margin-bottom: 20px;}
-       input:disabled{ /*가상 선택자(:disabled)로 스타일 적용*/
+       /*가상 선택자(:disabled)로 스타일 적용*/
+       input:disabled{ 
            background: #ddd;
            border: 1px solid #ccc;
        }
+       /*가상 선택자(:checked)로 스타일 적용*/
        input:checked + span{
-           /*가상 선택자(:checked)로 스타일 적용
-             '+'는 연결 연산자임.
-           */
            color: blue;
        }
     </style>

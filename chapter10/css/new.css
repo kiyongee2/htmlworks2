@@ -9,5 +9,6 @@ ul .new::after{
   border-radius: 2px;
   font-size: x-small;
   color: #fff;
-  margin: 0 6px;
+  padding: 2px;
+  margin: 0 5px;
 }

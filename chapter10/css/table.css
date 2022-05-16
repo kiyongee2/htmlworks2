@@ -4,11 +4,12 @@ table{
     margin: 0 auto;
     border-collapse: collapse;
 }
-td{
+table td{
     border: 1px solid #ccc;
     text-align: left;
     padding: 10px 10px 10px 20px;
 }
-tr:nth-child(2n+1){background: #eee;}
+/* n=0을 대입, 짝수인 경우 2n */
+table tr:nth-child(2n+1){background: #eee;}
 /* tr:first-child{background: #eee;} */
 /* tr:last-child{background: #eee;} */
