@@ -1,9 +1,9 @@
 /* 모바일 기준 */
 body{background-color: rgb(1, 1, 165);}
 #container{width: 320px; margin: 0 auto;}
-.card{width: 300px; height: 550px; background-color: #fff; 
+.card{width: 300px; height: 500px; background-color: #fff; 
       margin: 20px 10px; position: relative; }
-.word{position: absolute; top: 320px; left: 10px; 
+.word{position: absolute; top: 300px; left: 10px; 
       text-align: center; padding-right: 10px;}
 
 /* 태블릿 기준 */

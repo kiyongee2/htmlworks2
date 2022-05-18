@@ -7,7 +7,7 @@ section{height: 600px; border: 1px solid #fff; color: #fff; padding: 10px;}
 footer{height: 100px; border: 1px solid #fff; color: #fff; padding: 10px;}
 
 /* 태블릿 기준 */
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 780px){
     #container{width: 100%; margin:0 auto; background-color: #0f0;}
 }
 
