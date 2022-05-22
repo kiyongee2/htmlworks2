@@ -12,13 +12,15 @@
             height: 60px;
             padding: 20px;
 
-            animation-name: moving;
-            animation-duration: 2s;
+            /* animation-name: moving;
+            animation-duration: 2s; */
             /*normal-시작방향, alternate-시작을 역방향*/
-            animation-direction: normal;
-            animation-iteration-count: infinite;
+            /* animation-direction: normal;
+            animation-iteration-count: 3; */
+            /* 애니메이션을 계속 유지함 */
+            /* animation-fill-mode: forwards; */
              
-            animation: moving 2s alternate  infinite;
+            animation: moving 2s alternate 3 forwards;
         }
 
         @keyframes moving {
