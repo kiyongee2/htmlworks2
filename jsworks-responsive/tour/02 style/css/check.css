@@ -1,0 +1,36 @@
+input[type=checkbox].css-checkbox{
+    border: none; background: none;
+    position: absolute; left: -999px;
+}
+input[type=checkbox].css-checkbox + label{
+    display: inline-block;
+    padding: 0 0 0 30px;
+    height: 20px; line-height: 20px;
+    background: url(../img/bg_checkbox.png) no-repeat 0 0;
+    /* 원래 이미지크기의 2/3 */
+    /* width, height 순서 */
+    background-size: 20px 40px;
+}
+input[type=checkbox].css-checkbox:checked + label{
+    /* 체크하면 이미지를 20px 만큼 밀어 올림 */
+    /* left, top 순서 */
+    background-position: 0 -20px;
+}
+
+
+
+/* input[type=checkbox].css-checkbox {
+    border: none; background: none; 
+    position: absolute; left: -9999px;
+}
+input[type=checkbox].css-checkbox + label {
+    display: inline-block; 
+    padding: 0 0 0 30px;
+    height:20px; line-height:20px; 
+    background: url(../img/bg_checkbox.png) no-repeat 0 0;
+    background-size: 20px 40px; 
+    vertical-align:middle;
+}
+input[type=checkbox].css-checkbox:checked + label {
+    background-position:0 -20px;
+} */

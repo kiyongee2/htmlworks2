@@ -16,6 +16,7 @@ header nav #topMenu a{text-decoration: none; color: white; font-size: 1.1em;}
 header nav #topMenu a:hover{text-decoration: none; color: #2fb2fd;}
 
 /* index 스타일 */
+/* #main{min-height: calc(100vh - 180px);} */
 /* #contents{width: 1000px; margin: 30px auto;} */
 #contents section{margin: 30px 10px;}
 #contents section div{margin: 30px 10px;}
@@ -42,7 +43,7 @@ header nav #topMenu a:hover{text-decoration: none; color: #2fb2fd;}
 #product table, th, td{border: 1px solid #ccc; border-collapse: collapse; padding: 10px 20px;}
 
 /* q & a 스타일 */
-/* #board{width: 1000px; margin: 30px auto;} */
+#board{min-height: calc(100vh - 180px);}
 #board section h2{margin: 30px 10px;}
 #board #tbl_board{border: 1.5px solid #016801; border-collapse: collapse; 
     margin: 0 50px; width: 800px; height: 80px;}
