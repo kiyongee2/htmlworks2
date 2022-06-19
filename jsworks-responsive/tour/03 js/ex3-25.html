@@ -5,11 +5,13 @@
     <title>즉시 실행 함수</title>
     <script>
         (function() {
-            iife();           
+            life();           
         })();
-        function iife() {
+
+        function life() {
             console.log('즉시 실행 함수1');
-        }        
+        }  
+
         var instant = (function() {
             console.log('즉시 실행 함수2');
         })();        
